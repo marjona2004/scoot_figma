@@ -70,12 +70,12 @@ export const UseInfo = () => {
     
     </div>
     <img src={useInfo_round}  alt="" className='absolute top-[30px] right-0' />
-    <img src={useInfo_round}  alt="" className='absolute bottom-[150px] right-0' />
+    <img src={useInfo_round}  alt="" className='absolute bottom-[10px] right-0' />
     <img src={useInfo_round_two} alt="" className='absolute top-[600px] '/>
 
     <img src={useInfo_line} alt=""  className='absolute top-[320px] right-0 w-[734px]'/>
     <img src={useInfo_line_two} alt=""  className='absolute top-[620px] w-[400px] '/>
-    <img src={useInfo_line_three} alt=""  className='absolute bottom-[500px] right-0 w-[300px]'/>
+    <img src={useInfo_line_three} alt=""  className='absolute bottom-[200px] right-0 w-[400px]'/>
  
     </div>
  
