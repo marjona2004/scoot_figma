@@ -3,12 +3,13 @@ import { Button } from '../../../common/button/Button'
 
 import header_img_line_one from "/public/mock-image/hero_img/header_line.svg"
 import header_img_line_two from "/public/mock-image/hero_img/header_line_two.svg"
-import hero_round from "/public/mock-image/careers-images/hero_round.svg"   
+import hero_round from "/public/mock-image/careers-images/hero_round.svg" 
+import hero_bg from "/public/mock-image/hero_img/bg.png"  
 
 
 export const Hero = () => {
   return (
-    <div className="relative  bg-[#2F3B59]">
+    <div className="relative  bg-[url('/public/mock-image/hero_img/bg.png')] bg-cover">
         <div className='container py-[163px]'>
               <h1 className='text-[56px] font-bold leading-11 text-white'>
               Scooter sharing <br /> made simple
