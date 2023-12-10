@@ -9,22 +9,26 @@ import hero_bg from "/public/mock-image/hero_img/bg.png"
 
 export const Hero = () => {
   return (
-    <div className="relative  bg-[url('/public/mock-image/hero_img/bg.png')] bg-cover">
-        <div className='container py-[163px]'>
-              <h1 className='text-[56px] font-bold leading-11 text-white'>
+    <div className="relative   lg:bg-[url('/public/mock-image/hero_img/bg.png')] md:bg-[url('/public/mock-image/hero_img/bg.png')]  lg:bg-cover  md:pb-[100px]">
+        <div className='container lg:py-[163px] md:py-[163px]'>
+              <h1 className='text-[56px] font-bold leading-11 text-white md:text-center'>
               Scooter sharing <br /> made simple
               </h1>
-              <p className='py-[40px] pl-[95px] leading-6 text-white'>
+              <p className='
+              lg:py-[40px] lg:pl-[95px] lg:leading-6 md:py-[40px] text-white md:text-center  '>
               Scoot takes the hassle out of urban mobility. Our bikes <br />
                are placed in convenient locations in each of our cities. <br />
                 Use our app to locate the nearest bike, unlock it with  a <br />
                  tap, and you’re away!
               </p>
-            <Button>Get Scootin</Button>
+              <div className='md:text-center '>
+              <Button>Get Scootin</Button>
+              </div>
+          
         </div>
-         <img src={header_img_line_one} alt="" className='absolute top-[410px] w-[250px] '/>
-         <img src={header_img_line_two} alt="" className='absolute top-[400px] left-[750px]'/>
-         <img src={hero_round} alt="" className='absolute top-[470px]  right-0' />
+         <img src={header_img_line_one} alt="" className='lg:absolute lg:top-[410px] lg:w-[250px] md: hidden'/>
+         <img src={header_img_line_two} alt="" className='lg:absolute lg:top-[400px] lg:left-[750px] md:absolute md:top-[650px] '/>
+         <img src={hero_round} alt="" className='lg:absolute lg:top-[470px]  lg:right-0 md:absolute md:top-[720px] md:right-0' />
     </div>
   )
 }
