@@ -36,7 +36,7 @@ export const UseInfo = () => {
         </div>
       </div>
 
-     <div className='lg:flex lg:justify-between my-[150px]'>
+      <div className='lg:flex lg:justify-between my-[150px]'>
         <div>
          <img src={useInfo_img_two} alt="" className='md:ml-[150px]'/>
         </div>
@@ -57,6 +57,7 @@ export const UseInfo = () => {
         </div>
       
       </div>
+      
       <div className='lg:flex lg:justify-between mb-[178px] md:flex md:flex-col-reverse'>
         <div className='py-[50px]'>
             <h2 className='text-[48px] font-bold leading-12 text-[#495567] md:text-center' >
