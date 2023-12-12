@@ -5,14 +5,14 @@ import round_footer from "/public/mock-image/footer_img/round_footer.svg"
 import round_footer_two from "/public/mock-image/footer_img/round_footer_two.svg"
 export const Footer = () => {
   return (
-    <div className='lg:bg-[#495567] md:bg-[#495567] lg:relative md:relative '>
+    <div className='lg:bg-[#495567] md:bg-[#495567] lg:relative md:relative max-sm:bg-[#495567] '>
       <div className='lg:container lg:py-[122px] lg:flex lg:justify-between md:justify-center  md:text-center '>
         <div>
-         <h3 className='text-white text-[48px] font-bold leading-12 '>
+         <h3 className='text-white text-[48px] font-bold leading-12 max-sm:text-center max-sm:pt-[88px]'>
            Sign up and <br /> Scoot off today
          </h3>
         </div>
-        <div className='flex gap-[18px] pt-[22px] md:pl-[200px] md:pb-[30px]' >
+        <div className='flex gap-[18px] pt-[22px] md:pl-[200px] md:pb-[30px] max-sm:pl-[150px] max-sm:mt-[40px]' >
         <div className='flex gap-[11px] bg-white py-[9px] px-[18px] rounded-[4px] w-[159px] h-[56px]  '>
         <img src={footer_one_img} alt="" className=''/>
          <div>
@@ -30,9 +30,9 @@ export const Footer = () => {
           
         </div>
        </div>
-        <img src={round_footer} alt=""  className='lg:absolute lg:bottom-0 lg:left-[450px] lg:w-[347px] lg:h-[257px] md:bottom-0 md:absolute md:left-0 md:w-[200px] md:h-[200px]'/>
-        <img src={round_footer} alt=""  className='lg:absolute lg:bottom-0 lg:left-[930px] lg:w-[347px] lg:h-[257px] md:bottom-0 md:absolute md:left-[300px] md:w-[200px] md:h-[200px]'/>
-        <img src={round_footer_two} alt="" className='lg:absolute lg:bottom-0 lg:right-0 lg:w-[200px] lg:h-[207px] md:absolute md:bottom-0 md:right-0  md:w-[150px] md:h-[150px] '/>
+        <img src={round_footer} alt=""  className='lg:absolute lg:bottom-0 lg:left-[450px] lg:w-[347px] lg:h-[257px] md:bottom-0 md:absolute md:left-0 md:w-[200px] md:h-[200px] max-sm:absolute max-sm:hidden'/>
+        <img src={round_footer} alt=""  className='lg:absolute lg:bottom-0 lg:left-[930px] lg:w-[347px] lg:h-[257px] md:bottom-0 md:absolute md:left-[300px] md:w-[200px] md:h-[200px]  max-sm:w-[300px] '/>
+        <img src={round_footer_two} alt="" className='lg:absolute lg:bottom-0 lg:right-0 lg:w-[200px] lg:h-[207px] md:absolute md:bottom-0 md:right-0  md:w-[150px] md:h-[150px] max-sm:absolute max-sm:right-0 max-sm:top-[390px] max-sm:w-[250px] '/>
    </div>
 
   
