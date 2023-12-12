@@ -7,6 +7,7 @@ export default {
         center: true,
         screens: {
           xl: "1110px",
+        
         },
       },
       colors:{

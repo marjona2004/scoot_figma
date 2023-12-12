@@ -24,11 +24,11 @@ export const Faqs = () => {
                          this page and you’ll be re-directed to the correct page.
                        </p>
                 </div>
-                <div className='flex justify-between py-[32px] px-[40px] bg-[#F2F5F9] my-[20px] md:w-[689px] md:mx-[40px]'>
+                <div className='flex justify-between py-[32px] px-[40px] lg:w-[730px]  bg-[#F2F5F9] my-[20px] md:w-[689px] md:mx-[40px]'>
                     <h2 className='text-[24px] font-bold leading-7'>Can I find a nearby Scoots?</h2>
                     <img src={faq_icon_two} alt="" />
                 </div>
-                <div className='flex justify-between py-[32px] px-[40px] bg-[#F2F5F9] md:w-[689px] md:mx-[40px]'>'>
+                <div className='flex justify-between py-[32px] px-[40px] lg:w-[730px] bg-[#F2F5F9] md:w-[689px] md:mx-[40px]'>
                     <h2 className='text-[24px] font-bold leading-7'>Do I need a license to ride?</h2>
                     <img src={faq_icon_two} alt="" />
                 </div>
@@ -41,7 +41,7 @@ export const Faqs = () => {
             <div>
 
 
-                <div className='py-[32px] px-[40px] bg-[#F2F5F9] w-[730px] md:w-[689px] md:mx-[40px] md:mt-[50px]'>
+                <div className='py-[32px] px-[40px] bg-[#F2F5F9] lg:w-[730px] md:w-[689px] md:mx-[40px] md:mt-[50px]'>
                        <div className='flex justify-between'>
                         <h2 className='text-[24px] font-bold leading-7 '>Should I wear a helmet?</h2>
                         <img src={faq_icon_one} alt="" />
@@ -52,11 +52,11 @@ export const Faqs = () => {
                          want you to be as safe as possible while Scooting.
                        </p>
                 </div>
-                <div className='flex justify-between py-[32px] px-[40px] bg-[#F2F5F9] my-[20px] md:w-[689px] md:mx-[40px] '>
+                <div className='flex justify-between py-[32px] lg:w-[730px] px-[40px] bg-[#F2F5F9] my-[20px] md:w-[689px] md:mx-[40px] '>
                     <h2 className='text-[24px] font-bold leading-7'>How about the rules & regulations?</h2>
                     <img src={faq_icon_two} alt="" />
                 </div>
-                <div className='flex justify-between py-[32px] px-[40px] bg-[#F2F5F9] md:w-[689px] md:mx-[40px] md:mb-[100px]'>
+                <div className='flex justify-between py-[32px] lg:w-[730px] px-[40px] bg-[#F2F5F9] md:w-[689px] md:mx-[40px] md:mb-[100px]'>
                     <h2 className='text-[24px] font-bold leading-7'>What if I damage my Scoot?</h2>
                     <img src={faq_icon_two} alt="" />
                 </div>
