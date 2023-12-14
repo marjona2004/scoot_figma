@@ -13,11 +13,11 @@ export const Mobility = () => {
       <div className='container'>
            <div className=' lg:justify-between my-[150px] md:flex md:flex-col-reverse max-sm:flex max-sm:flex-col-reverse lg:flex-row '>
         <div className='py-[100px] '>
-        <h2 className='text-[48px]  text-[#495567]  font-bold leading-12 md:text-center  lg:text-start max-sm:text-center'>
+        <h2 className='text-[48px]  text-[#495567]  font-bold leading-12 md:text-center  lg:text-start max-sm:text-center dark:text-white'>
         Mobility for the <br />
          digital era  
         </h2>
-        <p className='mt-[20px]  text-[#939CAA]  text-[15px] font-normal leading-7 md:text-center lg:text-start max-sm:text-center'>
+        <p className='mt-[20px]  text-[#939CAA]  text-[15px] font-normal leading-7 md:text-center lg:text-start max-sm:text-center dark:text-white'>
         Getting around should be simple (and even fun!) for <br />
          everyone. We embrace technology to provide low cost, smart <br />
           access to scooters at your fingertips.
@@ -34,11 +34,11 @@ export const Mobility = () => {
           <img src={mobility_two_img} alt=""  className='rounded-[50%] md:ml-[150px] lg:ml-0 max-sm:px-[100px]'/>
          </div>
         <div className='py-[100px] '>
-        <h2 className='text-[48px]  text-[#495567]  font-bold leading-12 md:text-center lg:text-start max-sm:text-center'>
+        <h2 className='text-[48px]  text-[#495567]  font-bold leading-12 md:text-center lg:text-start max-sm:text-center dark:text-white'>
         Better urban <br />
          living
         </h2>
-        <p className='mt-[20px]  text-[#939CAA]  text-[15px] font-normal leading-7 md:text-center lg:text-start  max-sm:text-center'>
+        <p className='mt-[20px]  text-[#939CAA]  text-[15px] font-normal leading-7 md:text-center lg:text-start  max-sm:text-center dark:text-white'>
         We’re helping connect cities and bring people closer <br />
          together. Our scooters are also fully-electric and we offset <br />
           the minimal carbon footprint for each ride.

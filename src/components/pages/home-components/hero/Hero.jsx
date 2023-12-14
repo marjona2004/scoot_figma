@@ -10,7 +10,7 @@ import hero_bg from "/public/mock-image/hero_img/bg.png"
 export const Hero = () => {
   return (
     <div className="relative   lg:bg-[url('/public/mock-image/hero_img/bg.png')]  md:bg-[url('/public/mock-image/hero_img/bg.png')] max-sm:bg-[url('/public/mock-image/hero_img/bg.png')] lg:bg-cover  md:pb-[100px] max-sm:py-[40px]">
-        <div className='container md:py-[163px] lg:py-[163px] '>
+        <div className='container md:py-[163px] lg:py-[163px] dark:text-white'>
               <h1 className='text-[56px] lg:font-bold leading-11 text-white lg:text-start  md:text-center max-sm:text-center max-sm:pt-[125px]'>
               Scooter sharing <br /> made simple
               </h1>

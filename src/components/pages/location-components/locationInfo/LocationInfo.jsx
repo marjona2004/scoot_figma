@@ -9,13 +9,13 @@ export const LocationInfo = () => {
             <h2 className='max-sm:text-[24px] max-sm:font-bold max-sm:text-[#495567]'>New York</h2>
           </div>
           <div className='max-sm:w-[311px] max-sm:px-[100px] max-sm:py-[30px] max-sm:bg-rose-100 mt-[20px]'>
-            <h2 className='max-sm:text-[24px] max-sm:font-bold max-sm:text-[#495567]'>London</h2>
+            <h2 className='max-sm:text-[24px] max-sm:font-bold max-sm:text-[#495567] dark:text-white'>London</h2>
           </div>
           <div className='max-sm:w-[311px] max-sm:px-[100px] max-sm:py-[30px] max-sm:bg-rose-100 mt-[20px]'>
-            <h2 className='max-sm:text-[24px] max-sm:font-bold max-sm:text-[#495567]'>Jakarta</h2>
+            <h2 className='max-sm:text-[24px] max-sm:font-bold max-sm:text-[#495567] dark:text-white'>Jakarta</h2>
           </div>
           <div className='max-sm:w-[311px] max-sm:px-[100px] max-sm:py-[30px] max-sm:bg-rose-100 mt-[20px]'>
-            <h2 className='max-sm:text-[24px] max-sm:font-bold max-sm:text-[#495567]'>Yokohama</h2>
+            <h2 className='max-sm:text-[24px] max-sm:font-bold max-sm:text-[#495567] dark:text-white'>Yokohama</h2>
           </div>
         </div>
     </div>

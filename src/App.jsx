@@ -6,13 +6,34 @@ import { Careers } from "./pages/careers/Careers";
 import { Home } from "./pages/home";
 import { Footer_nav } from "./components/layout/footer_nav";
 import { Location } from "./pages/location/Location";
+import { useEffect, useState } from "react";
+
+
+
+
 
 function App() {
+const [theme,setTheme] =useState("light")
+
+useEffect(()=>{
+if(theme==="dark"){
+ document.documentElement.classList.add("dark")
+}else{
+  document.documentElement.classList.remove("dark")
+}
+
+
+},[theme])
+
+const changeThemeHandler=()=>{
+  setTheme(theme==="dark" ? "ligth":"dark")
+}
+
   return (
-    <div>
-      <Navbar/>
+    <div  className="dark:bg-slate-900">
+      <Navbar changeThemeHandler={changeThemeHandler}/>
       <Switch>
-          <Route path="/Home">
+          <Route path="/home">
              <Home/>
           </Route>
              <Route path="/about">

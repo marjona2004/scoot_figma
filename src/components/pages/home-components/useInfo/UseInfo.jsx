@@ -18,10 +18,10 @@ export const UseInfo = () => {
 
       <div className='lg:flex lg:gap-[60px] lg:flex-row  md:flex  md:flex-col-reverse max-sm:flex  max-sm:flex-col-reverse  '>
         <div className='lg:py-[50px]  md:mb-[10px] max-sm:py-[50px]'>
-            <h2 className='text-[48px] font-bold leading-12 text-[#495567] md:text-center lg:text-start max-sm:text-center' >Easy to use <br />
+            <h2 className='text-[48px] font-bold leading-12 text-[#495567] md:text-center lg:text-start max-sm:text-center dark:text-white' >Easy to use <br />
              riding telemetry
            </h2>
-           <p className='mb-[40px] mt-[24px] text-[#939CAA] text-[15px] leading-6 font-normal md:text-center lg:text-start max-sm:text-center' >
+           <p className='mb-[40px] mt-[24px] text-[#939CAA] text-[15px] leading-6 font-normal md:text-center lg:text-start max-sm:text-center dark:text-white' >
              The Scoot app is available with riding telemetry. This means <br />
              it can show you your average speed, how long you've been <br />
              using the scooter, your traveling distance, and many more <br />
@@ -41,10 +41,10 @@ export const UseInfo = () => {
          <img src={useInfo_img_two} alt="" className='md:ml-[150px] lg:ml-0 max-sm:ml-[100px]'/>
         </div>
         <div className='py-[50px] '>
-            <h2 className='text-[48px] font-bold leading-12 text-[#495567] md:text-center lg:text-start max-sm:text-center' >
+            <h2 className='text-[48px] font-bold leading-12 text-[#495567] md:text-center lg:text-start max-sm:text-center dark:text-white' >
             Coming to a city <br /> near you
            </h2>
-           <p className='mb-[40px] mt-[24px] text-[#939CAA] text-[15px] leading-6 font-normal md:text-center lg:text-start max-sm:text-center' >
+           <p className='mb-[40px] mt-[24px] text-[#939CAA] text-[15px] leading-6 font-normal md:text-center dark:text-white lg:text-start max-sm:text-center' >
            Scoot is available in 4 major cities so far. We’re expanding <br />
             rapidly, so be sure to let us know if you want to see us in <br />
              your hometown. We’re aiming to let our scooters loose on 23 <br />
@@ -60,10 +60,10 @@ export const UseInfo = () => {
       
       <div className='lg:flex-row lg:justify-between mb-[178px] md:flex md:flex-col-reverse max-sm:flex  max-sm:flex-col-reverse '>
         <div className='py-[50px]'>
-            <h2 className='text-[48px] font-bold leading-12 text-[#495567] md:text-center lg:text-start max-sm:text-center' >
+            <h2 className='text-[48px] font-bold leading-12 text-[#495567] md:text-center lg:text-start max-sm:text-center dark:text-white' >
             Zero hassle <br /> payments
            </h2>
-           <p className='mb-[40px] mt-[24px] text-[#939CAA] text-[15px] leading-6 font-normal md:text-center lg:text-start max-sm:text-center' >
+           <p className='mb-[40px] mt-[24px] text-[#939CAA] text-[15px] leading-6 font-normal md:text-center lg:text-start max-sm:text-center dark:text-white' >
            Our payment is as easy as one two three. We accept most <br />
             credit cards and debit cards. You can also link your PayPal <br />
              account inside the app. Need to pay later? No worries! You <br />

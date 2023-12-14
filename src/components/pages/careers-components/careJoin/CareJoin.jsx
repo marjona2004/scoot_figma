@@ -9,11 +9,11 @@ export const CareJoin = () => {
     <div className='relative'>
         <div className='container lg:flex lg:justify-between my-[150px] md:flex  lg:flex-row md:flex-col-reverse max-sm:flex max-sm:flex-col-reverse '>
         <div className='py-[30px] '>
-        <h2 className='text-[48px]  text-[#495567]  font-bold leading-12 md:text-center lg:text-start max-sm:text-center'>
+        <h2 className='text-[48px]  text-[#495567]  font-bold leading-12 md:text-center lg:text-start max-sm:text-center dark:text-white'>
         Care to join our <br />
          mission?
         </h2>
-        <p className='mt-[20px]  text-[#939CAA]  text-[15px] font-normal leading-7 mb-[40px] md:text-center lg:text-start max-sm:text-center'>
+        <p className='mt-[20px]  text-[#939CAA]  dark:text-white text-[15px] font-normal leading-7 mb-[40px] md:text-center lg:text-start max-sm:text-center'>
         We’re always looking for ambitious individuals to help us on <br />
          our journey. If you’re passionate about our mission to <br /> provide clean, accessible transport to 
           improve urban living <br />
