@@ -21,7 +21,7 @@ export const Hero = () => {
                  tap, and you’re away!
               </p>
               <div className='md:text-center lg:text-start max-sm:text-center max-sm:pb-[50px]'>
-              <Button>Get Scootin</Button>
+              <Button>getBtn</Button>
               </div>
           
         </div>

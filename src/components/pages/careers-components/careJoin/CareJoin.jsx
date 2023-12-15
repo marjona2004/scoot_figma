@@ -20,7 +20,7 @@ export const CareJoin = () => {
            we want to hear from you!
         </p>
         <div className='md:text-center lg:text-start max-sm:text-center'>
-        <Button>Say Hello</Button>
+        <Button>sayHello</Button>
         </div>
      
         </div>

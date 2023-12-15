@@ -29,7 +29,7 @@ export const UseInfo = () => {
            </p>
            <div className='md:text-center lg:text-start max-sm:text-center'>
 
-           <Button>Learn More</Button>
+           <Button>learnBtn</Button>
            </div>
         </div>
         <div>
@@ -51,7 +51,7 @@ export const UseInfo = () => {
               cities over the coming year.
            </p>
            <div className='md:text-center lg:text-start max-sm:text-center'>
-           <Button>Learn More</Button>
+           <Button>learnBtn</Button>
            </div>
        
         </div>
@@ -70,7 +70,7 @@ export const UseInfo = () => {
               can defer payment for up to a month.
            </p>
            <div className='md:text-center lg:text-start max-sm:text-center'> 
-           <Button>Learn More</Button>
+           <Button>learnBtn</Button>
            </div>
         
         </div>

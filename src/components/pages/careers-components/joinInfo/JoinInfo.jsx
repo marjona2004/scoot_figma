@@ -12,7 +12,7 @@ export const JoinInfo = () => {
         </p>
       </div>
       <div className='max-sm:mt-[30px] max-sm:ml-[20px]'>
-        <Button>Apply</Button>
+        <Button>applyBtn</Button>
       </div>
 
       </div>
@@ -24,7 +24,7 @@ export const JoinInfo = () => {
         </p>
       </div>
       <div className='max-sm:mt-[30px] max-sm:ml-[20px]'>
-        <Button>Apply</Button>
+        <Button>applyBtn</Button>
       </div>
 
       </div>
@@ -36,7 +36,7 @@ export const JoinInfo = () => {
         </p>
       </div>
       <div className='max-sm:mt-[30px] max-sm:ml-[20px]'>
-        <Button>Apply</Button>
+        <Button>applyBtn</Button>
       </div>
 
       </div>
@@ -48,7 +48,7 @@ export const JoinInfo = () => {
         </p>
       </div>
       <div className='max-sm:mt-[30px] max-sm:ml-[20px]'>
-        <Button>Apply</Button>
+        <Button>applyBtn</Button>
       </div>
 
       </div>
@@ -60,7 +60,7 @@ export const JoinInfo = () => {
         </p>
       </div>
       <div className='max-sm:mt-[30px] max-sm:ml-[20px]'>
-        <Button>Apply</Button>
+        <Button>applyBtn</Button>
       </div>
 
       </div>
@@ -72,7 +72,7 @@ export const JoinInfo = () => {
         </p>
       </div>
       <div className='max-sm:mt-[30px] max-sm:ml-[20px]'>
-        <Button>Apply</Button>
+        <Button>applyBtn</Button>
       </div>
 
       </div>
